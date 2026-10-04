@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core Potato Please loop of gather, prepare, serve, and upgrade so your first hours build a strong foundation."
         },
         {
           "number": "2",
           "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "description": "Climb through Potato Please levels faster with efficient stage routes, star ratings, and well-timed upgrades."
         },
         {
           "number": "3",
           "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "description": "Maximize spuds and resources with the most productive Potato Please plots, stations, and idle setups."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Potato Please."
+          "title": "Smart Upgrades",
+          "description": "Spend early earnings on the Potato Please upgrades that compound fastest instead of the flashiest tools."
         }
       ]
     },
@@ -66,265 +66,387 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Upgrades",
+        "Levels",
+        "System Requirements"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need for the first hours, from the core loop to smart early upgrades.",
+          "href": "/guide/potato-please-beginner-guide"
+        },
+        {
+          "badge": "Core",
+          "title": "Gameplay Guide",
+          "description": "How the decision layer, timing windows, and upgrade priorities shape every run.",
+          "href": "/mechanics/potato-please-gameplay"
+        },
+        {
+          "badge": "Popular",
+          "title": "Upgrades Guide",
+          "description": "A practical priority order for spending spuds without wasting them.",
+          "href": "/progression/potato-please-upgrades"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "Levels & Stars",
+          "description": "How Potato Please levels, constraints, and star ratings actually work.",
+          "href": "/mechanics/potato-please-levels"
+        },
+        {
+          "badge": "Popular",
+          "title": "Achievements",
+          "description": "Every achievement archetype and the fastest route to full completion.",
+          "href": "/guide/potato-please-achievements"
+        },
+        {
+          "badge": "New",
+          "title": "System Requirements",
+          "description": "Check whether your PC can run Potato Please before you download.",
+          "href": "/release/potato-please-system-requirements"
+        },
+        {
+          "badge": "Popular",
+          "title": "Trailer",
+          "description": "How to find the official Potato Please trailer and skip the fan edits.",
+          "href": "/community/potato-please-trailer"
+        },
+        {
+          "badge": "New",
+          "title": "Release Date",
+          "description": "Launch window, platforms, and how to get notified the moment it locks.",
+          "href": "/release/potato-please-release-date"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Platforms",
+          "description": "Which storefronts and devices actually offer Potato Please.",
+          "href": "/release/potato-please-platforms"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Potato Please?",
       "paragraphs": [
-        "Potato Please is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Potato Please is a cozy potato-peeling and idle farming game built around a simple four-beat loop: gather raw spuds, prepare them into dishes, serve waiting customers, and reinvest the earnings into tools, stations, and capacity. It is easy to pick up, but the decision layer of when to bank, when to spend, and which upgrade to buy is what separates fast progress from a stalled farm.",
+        "Beyond the opening hours, Potato Please opens up passive income, automation, level goals with star ratings, and a deep upgrade tree. Our wiki covers every system with practical guides, upgrade priority tables, achievement routes, and release details so new and returning players always know their next step."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Golden Horn Studios"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "Steam (PC)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Cozy Idle Sim"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Core Loop",
+          "value": "Gather / Prepare / Serve / Upgrade"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Upgrade Types",
+          "value": "Output / Passive / Multiplier / Automation"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Progression",
+          "value": "Levels & Star Ratings"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Potato Please Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Master Potato Please with essential guides for beginners, gameplay systems, tools, upgrades, automation, achievements, system requirements, trailers, and release details.",
       "modules": [
         {
           "order": 1,
-          "name": "Potato Please Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/potato-please-codes",
-          "displayType": "code-box",
+          "name": "Potato Please Beginner Guide",
+          "description": "Covers the basic gameplay loop, first steps, and the core objective so new players can start confidently.",
+          "href": "/guide/potato-please-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Finish the tutorial without skipping so you know which button produces value and which one only spends it."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Identify your currencies and separate fast renewable income from rare, slow resources."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Make one cheap upgrade immediately to confirm you understand the spend loop before costs rise."
+            },
+            {
+              "label": "4",
+              "detail": "Watch the timers for one full cycle to learn the rhythm the game expects you to play at."
+            },
+            {
+              "label": "5",
+              "detail": "Bank rare resources until you understand their real value instead of spending them early."
+            },
+            {
+              "label": "6",
+              "detail": "Keep all four loop beats running at once instead of obsessing over a single mechanic."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/potato-please-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Potato Please Gameplay Guide",
+          "description": "Explains the core mechanics, timing windows, upgrade priorities, and the mistakes that end runs early.",
+          "href": "/mechanics/potato-please-gameplay",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Input",
+              "detail": "Taps, holds, and timed presses that make up raw execution."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Decisions",
+              "detail": "Choosing when to spend, wait, or push for a bigger payoff."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Economy",
+              "detail": "Converting short-term gains into permanent upgrades."
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Buying the cheapest meaningful upgrade compounds faster than saving."
+            },
+            {
+              "label": "Pressure",
+              "detail": "Surviving the difficulty spike without overextending for a marginal gain."
+            },
+            {
+              "label": "Cash-Out",
+              "detail": "Securing the result instead of getting greedy at the finish line."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/potato-please-tier-list",
+          "name": "Potato Please Tools and Upgrades",
+          "description": "Introduces tools, equipment improvements, and progression choices that help players finish potato processing faster.",
+          "href": "/progression/potato-please-upgrades",
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "S",
+              "detail": "Output upgrades that raise the value of every action and fund the rest of your build."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "A",
+              "detail": "Passive generation that keeps earning while you are idle or away from the game."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "B",
+              "detail": "Speed and cooldown upgrades once timing is your main bottleneck."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "C",
+              "detail": "Cosmetic and prestige items that look nice but do not change your rate of progress."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/potato-please-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Potato Please Automation Guide",
+          "description": "Focuses on automation mechanics and how to turn repetitive potato peeling into efficient, hands-free systems.",
+          "href": "/mechanics/potato-please-mechanics",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "1",
+              "detail": "Map your manual routine and note which actions repeat every cycle."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "2",
+              "detail": "Buy passive generation first so income continues while you are away."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "3",
+              "detail": "Add automation upgrades once a manual loop starts to feel like a chore."
+            },
+            {
+              "label": "4",
+              "detail": "Reinvest in multipliers after your base output is established."
+            },
+            {
+              "label": "5",
+              "detail": "Take efficiency upgrades whenever they pay for themselves quickly."
+            },
+            {
+              "label": "6",
+              "detail": "Balance every stage so no single part of the loop becomes the bottleneck."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/potato-please-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Potato Please Achievements Guide",
+          "description": "Provides information about Steam achievements, completion goals, and the challenges players can track during gameplay.",
+          "href": "/guide/potato-please-achievements",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Progress",
+              "detail": "Reach milestones on the main path, usually during your first runs."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Collection",
+              "detail": "Gather full sets of items, recipes, or variants during the mid-game."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Skill",
+              "detail": "Finish quickly or without mistakes once the core mechanics click."
+            },
+            {
+              "label": "Explore",
+              "detail": "Find hidden areas, secrets, and rare spawns after the main path is done."
+            },
+            {
+              "label": "Cumulative",
+              "detail": "Repeat an action many times and let it tick in the background."
+            },
+            {
+              "label": "Secret",
+              "detail": "Undisclosed triggers best mopped up late with community help."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/potato-please-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Potato Please System Requirements",
+          "description": "Lists the minimum and recommended PC specs, supported features, and platform information players need to check.",
+          "href": "/release/potato-please-system-requirements",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "CPU",
+              "detail": "Compare generation and core count, not just the brand name on the box."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "GPU",
+              "detail": "Usually the deciding factor; check VRAM and integrated graphics limits."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "RAM",
+              "detail": "Meet the listed amount and leave a little headroom for your OS and apps."
+            },
+            {
+              "label": "Storage",
+              "detail": "Confirm free space and prefer an SSD for faster load times."
+            },
+            {
+              "label": "OS",
+              "detail": "Verify your operating system version is supported before installing."
+            },
+            {
+              "label": "API",
+              "detail": "Check DirectX or Vulkan feature support for compatibility."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Potato Please Trailer and Updates",
+          "description": "Collects official trailers, announcements, and development updates so players can follow new reveals.",
+          "href": "/community/potato-please-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Official",
+              "detail": "Match the uploader to the developer or publisher channel."
+            },
+            {
+              "label": "Fan Edits",
+              "detail": "Watch for re-uploads, watermarks, and mismatched audio."
+            },
+            {
+              "label": "Store Hub",
+              "detail": "Check the store community hub for the closest thing to an official word."
+            },
+            {
+              "label": "Discord",
+              "detail": "Fast reactions, low permanence, and a high rumor rate."
+            },
+            {
+              "label": "Forums",
+              "detail": "Longer analysis and archived links from other players."
+            },
+            {
+              "label": "Short-Form",
+              "detail": "15 to 60 second cuts with the context stripped out."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Potato Please Release Information",
+          "description": "Shows release status, developer information, supported platforms, and important launch details.",
+          "href": "/release/potato-please-release-date",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Launch",
+              "detail": "Not publicly fixed to a calendar day; confirm on the official store listing."
+            },
+            {
+              "label": "Platforms",
+              "detail": "Announced per storefront listing; check each store page separately."
+            },
+            {
+              "label": "Price",
+              "detail": "Typically revealed closer to launch on the store listing."
+            },
+            {
+              "label": "Wishlist",
+              "detail": "The standard way to get an alert when the date locks in."
+            },
+            {
+              "label": "Delay Risk",
+              "detail": "Certification, bugs, or a crowded window can shift the date."
+            },
+            {
+              "label": "Prep",
+              "detail": "Wishlist, check specs, and confirm storage before launch day."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "Potato Please FAQ",
       "description": "Quick answers to the most common questions about Potato Please.",
       "items": [
         {
           "question": "What is Potato Please?",
-          "answer": "Potato Please is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Potato Please is a cozy potato-peeling and idle farming game built around a four-beat loop: gather spuds, prepare dishes, serve customers, and upgrade your tools. It blends relaxing hands-on play with progression, automation, and level goals."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "How do I start Potato Please as a beginner?",
+          "answer": "Finish the tutorial without skipping, identify your currencies, and make one cheap upgrade immediately. Our Potato Please beginner guide walks through the first hours, the core loop, and the mistakes that stall new players."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Which Potato Please upgrades should I buy first?",
+          "answer": "Prioritize output upgrades that raise income per action, then add passive generation so you keep earning while away. Speed, capacity, multipliers, and automation come next once your base output is established."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do Potato Please levels and star ratings work?",
+          "answer": "Each Potato Please level pairs a primary goal with a move or time limit, and star thresholds reward efficiency rather than simple completion. Read the goal and constraint before your first move."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Where can I find the Potato Please release date?",
+          "answer": "The exact launch day is not publicly fixed yet. Wishlist Potato Please on the official Steam store page to get an alert, and check our release information page for platform and price updates."
         }
       ]
     },
