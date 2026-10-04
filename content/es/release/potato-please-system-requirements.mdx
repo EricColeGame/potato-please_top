@@ -1,0 +1,122 @@
+export const metadata = {
+  title: "Requisitos del sistema de Potato Please: qué necesita tu PC para ejecutarlo",
+  description: "Una guía práctica sobre los requisitos del sistema de Potato Please: cómo encontrar las especificaciones oficiales, interpretar cada línea y comprobar si tu PC puede ejecutar el juego.",
+  category: "release",
+  date: "2026-10-04",
+}
+
+Pocas cosas son más frustrantes que descargar un juego, abrirlo y ver cómo se entrecorta en la pantalla de título. Si estás intentando averiguar si tu ordenador puede cumplir con los **requisitos del sistema de Potato Please**, la respuesta suele reducirse a un puñado de especificaciones que puedes comprobar en unos cinco minutos. Conocer los **requisitos del sistema de Potato Please** antes de comprar o instalar te ahorra una descarga inútil, una solicitud de reembolso y una tarde de resolución de problemas que no habías pedido.
+
+La buena noticia es que la mayoría de los lanzamientos indie modernos son mucho más flexibles que los títulos de gran presupuesto. La mala noticia es que "mínimo" y "recomendado" significan cosas distintas para cada desarrollador, y las páginas de las tiendas rara vez explican qué hacen realmente esos números. Esta guía desglosa la lista línea por línea, te muestra dónde encontrar la versión oficial y te acompaña en la comprobación de tu propio equipo.
+
+## Por qué importan los requisitos del sistema de Potato Please antes de comprar
+
+Los requisitos del sistema son la forma que tiene el desarrollador de decir: "este es el hardware con el que hicimos las pruebas". Son una base, no una promesa. Un equipo que técnicamente cumple el mínimo puede seguir teniendo problemas si es un portátil con limitación térmica, un disco duro de hace una década o una cantidad de aplicaciones en segundo plano equivalente a un navegador entero.
+
+Lo que los requisitos **no** te dicen:
+
+- Qué tan bien está optimizado el juego para hardware de gama baja
+- Si tu controlador de GPU específico tiene problemas conocidos
+- Qué resolución y tasa de fotogramas buscaba el desarrollador
+- Cuánto almacenamiento necesita el juego tras los parches y archivos de guardado
+- Si la versión para portátil de una CPU listada rinde como la versión de sobremesa
+
+Ese último punto desconcierta a mucha gente. Un chip móvil con un nombre conocido suele funcionar bastante más despacio que su equivalente de sobremesa, así que coincidir en un número de modelo sobre el papel no es lo mismo que coincidir en rendimiento real.
+
+| Línea de especificación | Qué mide realmente | Malentendido común |
+|---|---|---|
+| Procesador (CPU) | La velocidad con la que el juego procesa lógica, físicas e IA | "Mismo nombre = misma velocidad" (los chips móviles son más lentos) |
+| Gráficos (GPU) | Resolución de renderizado, efectos y tasa de fotogramas | Se ignora la gráfica integrada o se da por buena |
+| Memoria (RAM) | Cuánto pueden retener a la vez el juego y tu sistema operativo | Más RAM arregla una GPU débil (no es así) |
+| Almacenamiento | Espacio necesario y velocidad de carga | Lo único que importa es el espacio libre |
+| Sistema operativo | Qué versiones de SO son compatibles | Cualquier SO moderno sirve (las versiones antiguas puede que no) |
+| API gráfica | Compatibilidad de características de DirectX o Vulkan | Es solo una casilla (afecta a la compatibilidad) |
+| Notas adicionales | Advertencias extra, requisitos en línea | Es texto de relleno (a veces es crítico) |
+
+## Dónde encontrar los requisitos oficiales del sistema de Potato Please
+
+Las listas de especificaciones se copian, se traducen mal y quedan desactualizadas por todo internet. Empieza siempre por la fuente que controla el desarrollador. Para la mayoría de los jugadores de PC, eso significa [la ficha oficial del juego en Steam](https://store.steampowered.com/search/?term=potato+please), donde los requisitos aparecen en un panel dedicado cerca de la parte inferior de la página.
+
+Si el juego también se vende en otras tiendas, comprueba cada una por separado. Los requisitos a veces difieren entre plataformas por el empaquetado, los lanzadores o el software incluido.
+
+| Fuente | Fiabilidad | Mejor uso |
+|---|---|---|
+| Página oficial de la tienda | La más alta | Especificaciones mínimas y recomendadas actuales |
+| Web del desarrollador o editor | Alta | Notas de parches, artículos de soporte, problemas conocidos |
+| Discord o foros oficiales | Media-alta | Confirmar especificaciones tras una actualización |
+| Wikis y hilos de la comunidad | Media | Rendimiento real en hardware similar |
+| Webs agregadoras de comprobación de specs | Media-baja | Una primera aproximación, nunca una respuesta definitiva |
+
+Una cosa más: los requisitos pueden cambiar. Un parche de lanzamiento, una actualización del motor o un cambio en los sistemas operativos compatibles pueden mover los límites. Si comprobaste las especificaciones hace meses, vuelve a revisarlas antes de ponerte a solucionar problemas. Los informes de la comunidad señalan con frecuencia que los parches posteriores al lanzamiento ajustaron el rendimiento en hardware antiguo en ambas direcciones.
+
+## Cómo leer correctamente cada línea de requisitos
+
+Leer bien una lista de especificaciones es una habilidad. El truco está en comparar niveles en lugar de números de modelo exactos, e identificar qué componente es el verdadero filtro.
+
+**CPU:** Fíjate en la generación y el número de núcleos, no solo en la marca. Si tu chip está uno o dos niveles por debajo del mínimo listado, puede que sigas bien con ajustes bajos, pero espera tiempos de carga más largos y posibles tirones en escenas cargadas.
+
+**GPU:** Suele ser el factor decisivo. Compara tu tarjeta con la listada usando una base de datos de referencia de confianza en lugar de adivinar a partir del número de modelo. Presta atención también a la VRAM; las gráficas integradas a menudo comparten la memoria del sistema, lo que perjudica a resoluciones más altas.
+
+**RAM:** Cumplir la cantidad listada es el suelo. Tener un poco de margen por encima ayuda, porque tu sistema operativo, el navegador y las aplicaciones de chat compiten por el mismo fondo común.
+
+**Almacenamiento:** El espacio libre importa, pero el tipo de unidad también. Una unidad de estado sólido reduce drásticamente los tiempos de carga en comparación con un disco duro mecánico.
+
+**SO y API:** Confirma que tu sistema operativo sigue siendo compatible y comprueba que tu controlador de GPU admite el nivel de características de DirectX o Vulkan requerido. Los controladores desactualizados son una de las principales causas de "cumple los requisitos pero no arranca".
+
+## Mínimos frente a recomendados, explicados
+
+Los dos niveles no son un sistema de aprobado o suspenso. Piénsalos como dos experiencias distintas.
+
+| Nivel | Qué esperar | Para quién es |
+|---|---|---|
+| Por debajo del mínimo | Puede que no arranque; tirones fuertes si lo hace | No recomendado |
+| En el mínimo | Jugable con ajustes bajos y resolución reducida | Equipos económicos y antiguos |
+| En el recomendado | Rendimiento fluido con ajustes típicos | La mayoría de los jugadores |
+| Por encima del recomendado | Margen para mayor resolución y efectos | Equipos de entusiasta |
+
+Si te quedas entre el mínimo y el recomendado, estás en la posición más común. Empieza con ajustes bajos, desactiva el desenfoque de movimiento y el postprocesado pesado, limita la tasa de fotogramas a algo estable y sube los ajustes de uno en uno hasta que el rendimiento baje. Una tasa de fotogramas más baja pero estable se siente mucho mejor que una más alta e inconstante.
+
+Los jugadores que usan lo que la comunidad llama cariñosamente un "PC patata" también deberían cerrar las aplicaciones en segundo plano antes de lanzar el juego. En equipos con memoria limitada, liberar un par de gigabytes suele importar más que cualquier ajuste dentro del juego.
+
+## Cómo comprobar tu PC y solucionar los cuellos de botella habituales
+
+No necesitas abrir la carcasa para averiguar con qué estás trabajando. Todos los sistemas operativos principales exponen los detalles en unos pocos clics.
+
+| Plataforma | Dónde mirar | Qué obtienes |
+|---|---|---|
+| Windows 11/10 | Configuración > Sistema > Acerca de | Modelo de CPU, cantidad de RAM, compilación del SO |
+| Windows (cualquiera) | Administrador de tareas > Rendimiento | Uso de CPU, GPU, RAM y disco en tiempo real |
+| Windows (cualquiera) | Ejecutar `dxdiag` | Tarjeta gráfica, versión del controlador, nivel de DirectX |
+| macOS | Menú Apple > Acerca de este Mac | Chip, memoria, almacenamiento, versión del SO |
+| Linux | Terminal: `lscpu`, `free -h`, `lspci` | Detalles de CPU, memoria y GPU |
+
+Una vez que conozcas tu hardware, compáralo con la lista oficial. Si cumples las especificaciones pero el rendimiento sigue siendo pobre, el problema suele ser uno de unos pocos cuellos de botella predecibles.
+
+| Síntoma | Causa probable | Solución rápida |
+|---|---|---|
+| Tasa de fotogramas baja con cualquier ajuste | GPU por debajo del nivel recomendado | Bajar resolución, desactivar efectos, limitar fotogramas |
+| Tirones e interrupciones | RAM insuficiente o almacenamiento lento | Cerrar aplicaciones en segundo plano, mover el juego a un SSD |
+| Tiempos de carga largos | Disco duro mecánico | Instalar en un SSD si tienes uno |
+| Cuelgue al arrancar | Controlador de GPU desactualizado o runtime ausente | Actualizar controladores, verificar archivos del juego |
+| El rendimiento cae con el tiempo | Limitación térmica | Mejorar la ventilación, limpiar rejillas, bajar ajustes |
+
+Si quieres hacerte una idea más amplia de dónde se sitúa tu equipo respecto a la base de jugadores general, la [Encuesta de hardware y software de Steam](https://store.steampowered.com/hwsurvey/) es una buena referencia. Muestra qué GPU, CPU y configuraciones de memoria son más comunes entre los jugadores, lo que te ayuda a juzgar si merece la pena una actualización.
+
+Por último, verifica los archivos del juego después de cualquier actualización importante. Las descargas corruptas son una causa aburrida pero sorprendentemente común de problemas de rendimiento, y la solución tarda segundos.
+
+## Preguntas frecuentes
+
+**¿Puedo ejecutar el juego si mi PC está por debajo de los requisitos mínimos?**
+A veces, pero no cuentes con ello. Algunos títulos se adaptan más de lo que indica su suelo publicado, y los informes de la comunidad describen ocasionalmente resultados jugables en hardware antiguo. Dicho esto, arrancar por debajo del mínimo suele implicar cuelgues, texturas ausentes o una tasa de fotogramas injugable. Trata el mínimo como un límite real, no como una sugerencia.
+
+**¿Cambian los requisitos del sistema de Potato Please después del lanzamiento?**
+Pueden cambiar. Los parches, las actualizaciones del motor y el fin del soporte de ciertos sistemas operativos han modificado listas de especificaciones tras el lanzamiento en el pasado. Si los comprobaste hace meses, vuelve a visitar la página oficial de la tienda antes de empezar a solucionar problemas de rendimiento.
+
+**¿Es obligatorio un SSD o basta con un disco duro?**
+Muchos títulos ligeros funcionan aceptablemente desde una unidad mecánica. La contrapartida son los tiempos de carga y, en algunos casos, los tirones cuando el juego transmite recursos. Si tienes un SSD con espacio de sobra, instalar ahí es una de las mejoras de rendimiento más baratas que existen.
+
+**¿Cómo compruebo mi tarjeta gráfica rápidamente?**
+En Windows, abre el cuadro de diálogo Ejecutar, escribe `dxdiag` y consulta la pestaña Pantalla. Muestra el modelo de tu GPU, la memoria de vídeo disponible y la versión del controlador: los tres datos que más importan al comparar tu PC con los requisitos del sistema de Potato Please.
+
+**¿Qué debería mejorar primero si me quedo corto?**
+En la mayoría de los casos, la tarjeta gráfica aporta la mayor ganancia, seguida de añadir memoria si estás por debajo de la cantidad listada. Las mejoras de almacenamiento mejoran los tiempos de carga en lugar de la tasa de fotogramas, así que prioriza en consecuencia.

@@ -1,0 +1,122 @@
+export const metadata = {
+  title: "Configuration requise pour Potato Please : ce dont votre PC a besoin pour y jouer",
+  description: "Un guide pratique de la configuration requise pour Potato Please — comment trouver les spécifications officielles, lire chaque ligne et vérifier si votre PC peut faire tourner le jeu.",
+  category: "release",
+  date: "2026-10-04",
+}
+
+Peu de choses sont plus frustrantes que de télécharger un jeu, de le lancer et de le voir saccader dès l’écran titre. Si vous cherchez à savoir si votre ordinateur peut supporter la **configuration requise de Potato Please**, la réponse se résume généralement à une poignée de spécifications que vous pouvez vérifier en cinq minutes environ. Connaître la **configuration requise de Potato Please** avant d’acheter ou d’installer vous évite un téléchargement inutile, une demande de remboursement et une soirée de dépannage dont vous ne vouliez pas.
+
+La bonne nouvelle, c’est que la plupart des sorties indés modernes sont bien plus indulgentes que les gros titres à gros budget. La mauvaise, c’est que « minimum » et « recommandé » ne signifient pas la même chose selon les développeurs, et les pages de boutique expliquent rarement ce que ces chiffres impliquent réellement. Ce guide décompose la liste ligne par ligne, vous montre où trouver la version faisant autorité et vous accompagne dans la vérification de votre propre machine.
+
+## Pourquoi la configuration requise de Potato Please compte avant l’achat
+
+Les configurations requises sont la façon qu’a le développeur de dire : « voici le matériel sur lequel nous avons testé ». Elles constituent une base, pas une promesse. Une machine qui répond techniquement au minimum peut encore peiner s’il s’agit d’un ordinateur portable soumis au bridage thermique, d’un disque dur vieux de dix ans ou d’un navigateur plein d’applications en arrière-plan.
+
+Ce que les configurations requises ne vous disent **pas** :
+
+- Dans quelle mesure le jeu est optimisé pour le matériel bas de gamme
+- Si votre pilote GPU spécifique présente des problèmes connus
+- Quelle résolution et quelle fréquence d’images le développeur visait
+- De l’espace de stockage nécessaire au jeu après les correctifs et les fichiers de sauvegarde
+- Si une version portable d’un processeur listé offre les mêmes performances que la version de bureau
+
+Ce dernier point en déroute plus d’un. Une puce mobile au nom familier tourne souvent bien plus lentement que son équivalent de bureau ; faire correspondre une référence sur le papier n’est donc pas la même chose que faire correspondre les performances réelles.
+
+| Ligne de configuration | Ce qu’elle mesure réellement | Malentendu courant |
+|---|---|---|
+| Processeur (CPU) | La vitesse à laquelle le jeu peut traiter la logique, la physique et l’IA | « Même nom = même vitesse » (les puces mobiles sont plus lentes) |
+| Carte graphique (GPU) | La résolution de rendu, les effets et la fréquence d’images | Les graphiques intégrés sont ignorés ou considérés comme suffisants |
+| Mémoire (RAM) | La quantité que le jeu et votre système d’exploitation peuvent contenir simultanément | Plus de RAM corrige un GPU faible (ce n’est pas le cas) |
+| Stockage | L’espace nécessaire et la vitesse de chargement | Seul l’espace libre compte |
+| Système d’exploitation | Quelles versions du système d’exploitation sont prises en charge | Tout système moderne fonctionne (les anciennes versions peuvent ne pas fonctionner) |
+| API graphique | La prise en charge des fonctionnalités DirectX ou Vulkan | Ce n’est qu’une case à cocher (cela affecte la compatibilité) |
+| Notes supplémentaires | Remarques supplémentaires, exigences en ligne | C’est du texte standard (parfois c’est essentiel) |
+
+## Où trouver la configuration requise officielle de Potato Please
+
+Les listes de spécifications sont copiées, mal traduites et obsolètes sur Internet. Commencez toujours par la source contrôlée par le développeur. Pour la plupart des joueurs PC, il s’agit de [la fiche officielle Steam du jeu](https://store.steampowered.com/search/?term=potato+please), où la configuration requise apparaît dans un panneau dédié près du bas de la page.
+
+Si le jeu est aussi vendu sur d’autres plateformes, vérifiez chacune séparément. Les configurations requises diffèrent parfois d’une plateforme à l’autre en raison du conditionnement, des lanceurs ou des logiciels inclus.
+
+| Source | Fiabilité | Utilisation idéale |
+|---|---|---|
+| Page de boutique officielle | La plus élevée | Configuration minimale et recommandée actuelle |
+| Site du développeur ou de l’éditeur | Élevée | Notes de correctif, articles d’assistance, problèmes connus |
+| Discord ou forums officiels | Moyenne à élevée | Confirmer la configuration après une mise à jour |
+| Wikis et fils communautaires | Moyenne | Performances réelles sur du matériel similaire |
+| Sites agrégateurs de vérification de configuration | Faible à moyenne | Une première estimation approximative, jamais une réponse définitive |
+
+Autre point : les configurations requises peuvent changer. Un correctif de lancement, une mise à jour du moteur ou un changement des systèmes d’exploitation pris en charge peut déplacer les lignes. Si vous avez vérifié les spécifications il y a des mois, revérifiez-les avant de chercher à résoudre un problème. Les rapports de la communauté signalent fréquemment que les correctifs post-lancement ont ajusté les performances sur du matériel plus ancien, dans un sens comme dans l’autre.
+
+## Comment lire correctement chaque ligne de configuration requise
+
+Bien lire une liste de spécifications est une compétence. L’astuce consiste à comparer les niveaux plutôt que les références exactes, et à identifier le composant qui constitue le véritable facteur limitant.
+
+**CPU :** Regardez la génération et le nombre de cœurs, pas seulement la marque. Si votre puce se situe un ou deux niveaux en dessous du minimum indiqué, vous pouvez encore vous en sortir avec des réglages plus bas — mais attendez-vous à des temps de chargement plus longs et à d’éventuelles saccades dans les scènes chargées.
+
+**GPU :** C’est généralement le facteur décisif. Comparez votre carte à celle indiquée à l’aide d’une base de données de benchmarks réputée plutôt que de deviner à partir de la référence. Faites aussi attention à la VRAM ; les graphiques intégrés partagent souvent la mémoire système, ce qui nuit aux résolutions élevées.
+
+**RAM :** Atteindre la quantité indiquée est le minimum. Disposer d’une petite marge au-dessus aide, car votre système d’exploitation, votre navigateur et vos applications de messagerie se disputent tous la même réserve.
+
+**Stockage :** L’espace libre compte, mais le type de disque aussi. Un disque SSD réduit considérablement les temps de chargement par rapport à un disque dur mécanique.
+
+**Système d’exploitation et API :** Vérifiez que votre système d’exploitation est toujours pris en charge et que votre pilote GPU prend en charge le niveau de fonctionnalité DirectX ou Vulkan requis. Les pilotes obsolètes sont une cause majeure de « il respecte la configuration requise, mais ne se lance pas ».
+
+## Configuration minimale vs recommandée, expliquée
+
+Les deux niveaux ne constituent pas un système de réussite ou d’échec. Considérez-les comme deux expériences différentes.
+
+| Niveau | Ce à quoi s’attendre | À qui cela convient |
+|---|---|---|
+| En dessous du minimum | Peut ne pas se lancer ; saccades importantes si c’est le cas | Non recommandé |
+| Au minimum | Jouable en réglages bas et résolution réduite | Machines économiques et anciennes |
+| Au niveau recommandé | Performances fluides avec les réglages habituels | La plupart des joueurs |
+| Au-dessus du recommandé | Marge pour une résolution et des effets plus élevés | Configurations d’enthousiastes |
+
+Si vous vous situez entre le minimum et le recommandé, vous êtes dans la position la plus courante. Commencez par les réglages bas, désactivez le flou de mouvement et les post-traitements lourds, limitez la fréquence d’images à une valeur stable, puis augmentez les réglages un par un jusqu’à ce que les performances chutent. Une fréquence d’images plus basse mais régulière est bien plus agréable qu’une fréquence plus élevée et fluctuante.
+
+Les joueurs qui utilisent ce que la communauté appelle affectueusement un « PC patate » devraient aussi fermer les applications en arrière-plan avant de lancer le jeu. Sur les machines à mémoire limitée, libérer quelques gigaoctets compte souvent plus que n’importe quel réglage en jeu.
+
+## Comment vérifier votre PC et corriger les goulots d’étranglement courants
+
+Vous n’avez pas besoin d’ouvrir votre boîtier pour savoir avec quoi vous travaillez. Tous les principaux systèmes d’exploitation exposent les détails en quelques clics.
+
+| Plateforme | Où regarder | Ce que vous obtenez |
+|---|---|---|
+| Windows 11/10 | Paramètres > Système > À propos | Modèle de CPU, quantité de RAM, version du système |
+| Windows (toutes versions) | Gestionnaire des tâches > onglet Performances | Utilisation en direct du CPU, du GPU, de la RAM et du disque |
+| Windows (toutes versions) | Exécutez `dxdiag` | Carte graphique, version du pilote, niveau DirectX |
+| macOS | Menu Apple > À propos de ce Mac | Puce, mémoire, stockage, version du système |
+| Linux | Terminal : `lscpu`, `free -h`, `lspci` | Détails du CPU, de la mémoire et du GPU |
+
+Une fois que vous connaissez votre matériel, comparez-le à la liste officielle. Si vous respectez la configuration requise mais que les performances restent médiocres, le problème vient généralement de l’un de quelques goulots d’étranglement prévisibles.
+
+| Symptôme | Cause probable | Correctif rapide |
+|---|---|---|
+| Faible fréquence d’images à tous les réglages | GPU en dessous du niveau recommandé | Réduire la résolution, désactiver les effets, limiter la fréquence d’images |
+| Saccades et micro-blocages | RAM insuffisante ou stockage lent | Fermer les applications en arrière-plan, déplacer le jeu sur un SSD |
+| Temps de chargement longs | Disque dur mécanique | Installer sur un SSD si vous en avez un |
+| Plantage au lancement | Pilote GPU obsolète ou runtime manquant | Mettre à jour les pilotes, vérifier les fichiers du jeu |
+| Baisse des performances au fil du temps | Bridage thermique | Améliorer la circulation d’air, nettoyer les évents, baisser les réglages |
+
+Si vous voulez avoir une idée plus large de la position de votre machine par rapport à l’ensemble des joueurs, [l’enquête matériel et logiciels de Steam](https://store.steampowered.com/hwsurvey/) est un bon test de réalité. Il montre quels GPU, CPU et configurations mémoire sont les plus courants chez les joueurs, ce qui vous aide à juger si une mise à niveau vaut le coup.
+
+Enfin, vérifiez les fichiers de votre jeu après toute mise à jour majeure. Les téléchargements corrompus sont une cause ennuyeuse mais étonnamment courante de problèmes de performance, et la solution prend quelques secondes.
+
+## Questions fréquentes
+
+**Puis-je faire tourner le jeu si mon PC est en dessous de la configuration minimale ?**
+Parfois, mais ne comptez pas dessus. Certains titres descendent plus bas que leur seuil publié, et des rapports de la communauté décrivent occasionnellement des résultats jouables sur du matériel plus ancien. Cela dit, lancer un jeu en dessous du minimum signifie souvent des plantages, des textures manquantes ou une fréquence d’images injouable. Considérez le minimum comme une véritable limite, pas comme une suggestion.
+
+**La configuration requise de Potato Please change-t-elle après la sortie ?**
+Elle peut changer. Les correctifs, les mises à jour du moteur et l’abandon de la prise en charge de certains systèmes d’exploitation ont déjà modifié des listes de spécifications après le lancement. Si vous avez vérifié il y a des mois, retournez sur la page de boutique officielle avant de commencer à résoudre des problèmes de performance.
+
+**Un SSD est-il obligatoire, ou un disque dur suffit-il ?**
+De nombreux titres légers fonctionnent correctement depuis un disque mécanique. Le compromis concerne les temps de chargement et, dans certains cas, des saccades lorsque le jeu charge des ressources en continu. Si vous avez un SSD avec de la place à revendre, y installer le jeu est l’une des améliorations de performances les moins chères qui soient.
+
+**Comment vérifier rapidement ma carte graphique ?**
+Sous Windows, ouvrez la boîte de dialogue Exécuter, tapez `dxdiag`, puis consultez l’onglet Affichage. Il indique le modèle de votre GPU, la mémoire vidéo disponible et la version du pilote — les trois détails qui comptent le plus lorsque vous comparez votre PC à la configuration requise de Potato Please.
+
+**Que dois-je améliorer en premier si je n’atteins pas la configuration requise ?**
+Dans la plupart des cas, la carte graphique apporte le plus grand gain, suivie de l’ajout de mémoire si vous êtes en dessous de la quantité indiquée. Les améliorations de stockage améliorent les temps de chargement plutôt que la fréquence d’images ; hiérarchisez donc en conséquence.

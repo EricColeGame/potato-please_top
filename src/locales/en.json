@@ -9,7 +9,13 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "features": "Features",
+    "progression": "Progression",
+    "community": "Community",
+    "release": "Release"
   },
   "home": {
     "meta": {
@@ -457,7 +463,30 @@
       "secondary": "View on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Potato Please Beginner Guide & Walkthroughs",
+    "overviewDescription": "Start here for Potato Please beginner guides, tutorials, tips, achievements, and a complete walkthrough for new players."
+  },
+  "mechanics": {
+    "overviewTitle": "Potato Please Gameplay Mechanics",
+    "overviewDescription": "Learn how Potato Please plays: core mechanics, controls, sorting, levels, and step-by-step how-to-play basics."
+  },
+  "features": {
+    "overviewTitle": "Potato Please Game Features",
+    "overviewDescription": "Explore Potato Please characters, items, game modes, challenges, secrets, and endings in one place."
+  },
+  "progression": {
+    "overviewTitle": "Potato Please Progression & Upgrades",
+    "overviewDescription": "Plan your Potato Please upgrades, unlocks, rewards, and strategy with practical progression tips."
+  },
+  "community": {
+    "overviewTitle": "Potato Please Community & Media",
+    "overviewDescription": "Potato Please community links, Reddit and Discord discussion, player reviews, and official trailers."
+  },
+  "release": {
+    "overviewTitle": "Potato Please Release & Platforms",
+    "overviewDescription": "Potato Please release date, Steam page, demo, price, platforms, and system requirements."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -488,10 +517,11 @@
     "officialYoutube": "Official YouTube",
     "vvBuilder": "Farming Tips",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "mechanicsGuides": "Gameplay Guides",
+    "featuresGuides": "Feature Guides",
+    "progressionGuides": "Progression Guides",
+    "communityGuides": "Community & Media"
   }
 }
