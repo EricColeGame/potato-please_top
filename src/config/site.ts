@@ -25,11 +25,13 @@ export const siteConfig: SiteConfig = {
   tagline: "Peeling Guides, Tools & Progression Tips",
   description: "Your ultimate guide to Potato Please! Learn peeling techniques, tool upgrades, automation strategies and progression tips for the cozy potato-peeling simulator.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://potato-please.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://potato-please.top").hostname.replace(/^www\./, "")}`,
+  supportEmail: "support@potato-please.top",
   gameUrl: "https://store.steampowered.com/app/5266240/Potato_Please/",
   heroVideoId: "TXiaCqyF41Y", // Potato Please Official Reveal Trailer (Golden Horn Studios)
   social: {
+    discord: "https://steamcommunity.com/app/5266240",
     youtube: "https://www.youtube.com/@GoldenHornStudios",
+    twitter: "https://www.twitter.com/MarmaladeBus",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
