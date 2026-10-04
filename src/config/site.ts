@@ -33,6 +33,6 @@ export const siteConfig: SiteConfig = {
     youtube: "https://www.youtube.com/@GoldenHornStudios",
     twitter: "https://www.twitter.com/MarmaladeBus",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "es", "fr"],
   defaultLocale: "en",
 };
