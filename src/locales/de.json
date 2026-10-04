@@ -1,1 +1,527 @@
-{}
+{
+  "site": {
+    "name": "Potato Please Wiki",
+    "shortName": "Potato Please",
+    "tagline": "Schäl-Guides, Tools, Upgrades & Farming-Tipps",
+    "description": "Dein ultimativer Guide zu Potato Please! Lerne Kartoffelschäl-Techniken, Werkzeug-Upgrades, Automatisierungsstrategien und Fortschrittstipps für den gemütlichen Kartoffelschäl-Simulator.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler."
+  },
+  "nav": {
+    "home": "Start",
+    "menu": "Menü",
+    "toggleTheme": "Design wechseln",
+    "guide": "Guide",
+    "mechanics": "Mechanik",
+    "features": "Features",
+    "progression": "Fortschritt",
+    "community": "Community",
+    "release": "Release"
+  },
+  "home": {
+    "meta": {
+      "title": "Potato Please Wiki – Farming, Guide & Tipps",
+      "description": "Das Potato Please Wiki bietet komplette Farming-Guides, Kartoffelschäl-Tipps, Werkzeug-Upgrades, Automatisierungsstrategien und Einsteiger-Walkthroughs, damit Spieler das Spiel meistern."
+    },
+    "hero": {
+      "eyebrow": "Gemütlicher Kartoffelschäl-Simulator",
+      "title": "Potato Please Wiki",
+      "description": "Potato Please ist ein lockeres Ego-Perspektive-Kartoffelschälspiel. Schnapp dir ein Messer, schäle jede Kartoffel, verbessere deine Werkzeuge und automatisiere die Farm in entspanntem, physikbasiertem Gameplay.",
+      "stats": [
+        "Einsteiger-Guide",
+        "Schäl-Tipps",
+        "Werkzeuge & Upgrades",
+        "Automatisierungsstrategien"
+      ],
+      "primaryCta": "Auf Steam spielen",
+      "secondaryCta": "Einsteiger-Guide",
+      "tertiaryCta": "Gameplay-Guide",
+      "videoLabel": "Offizieller Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Potato-Please-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Guide",
+          "description": "Lerne die Kernschleife von Potato Please – sammeln, zubereiten, servieren und verbessern – damit deine ersten Stunden ein starkes Fundament legen."
+        },
+        {
+          "number": "2",
+          "title": "Schnellstes Leveln",
+          "description": "Steige schneller in Potato-Please-Level auf mit effizienten Stage-Routen, Sternebewertungen und gut getimten Upgrades."
+        },
+        {
+          "number": "3",
+          "title": "Beste Farming-Spots",
+          "description": "Maximiere Kartoffeln und Ressourcen mit den produktivsten Potato-Please-Feldern, Stationen und Idle-Setups."
+        },
+        {
+          "number": "4",
+          "title": "Kluge Upgrades",
+          "description": "Gib frühe Einnahmen für die Potato-Please-Upgrades aus, die am schnellsten wirken, statt für die auffälligsten Werkzeuge."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade angesagt",
+      "quickLinks": [
+        "Einsteiger-Guide",
+        "Upgrades",
+        "Level",
+        "Systemanforderungen"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Guide",
+          "description": "Alles, was du für die ersten Stunden brauchst – von der Kernschleife bis zu klugen frühen Upgrades.",
+          "href": "/guide/potato-please-beginner-guide"
+        },
+        {
+          "badge": "Kern",
+          "title": "Gameplay-Guide",
+          "description": "Wie Entscheidungsebene, Timing-Fenster und Upgrade-Prioritäten jeden Durchlauf prägen.",
+          "href": "/mechanics/potato-please-gameplay"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Upgrades-Guide",
+          "description": "Eine praktische Prioritätsreihenfolge für die Ausgabe von Kartoffeln, ohne sie zu verschwenden.",
+          "href": "/progression/potato-please-upgrades"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Level & Sterne",
+          "description": "Wie Potato-Please-Level, Einschränkungen und Sternebewertungen wirklich funktionieren.",
+          "href": "/mechanics/potato-please-levels"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Erfolge",
+          "description": "Jeder Erfolgs-Archetyp und der schnellste Weg zur vollständigen Komplettierung.",
+          "href": "/guide/potato-please-achievements"
+        },
+        {
+          "badge": "Neu",
+          "title": "Systemanforderungen",
+          "description": "Prüfe, ob dein PC Potato Please ausführen kann, bevor du herunterlädst.",
+          "href": "/release/potato-please-system-requirements"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Trailer",
+          "description": "Wie du den offiziellen Potato-Please-Trailer findest und Fan-Edits überspringst.",
+          "href": "/community/potato-please-trailer"
+        },
+        {
+          "badge": "Neu",
+          "title": "Release-Datum",
+          "description": "Startfenster, Plattformen und wie du dich benachrichtigen lässt, sobald es feststeht.",
+          "href": "/release/potato-please-release-date"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Plattformen",
+          "description": "Welche Stores und Geräte Potato Please tatsächlich anbieten.",
+          "href": "/release/potato-please-platforms"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Potato Please?",
+      "paragraphs": [
+        "Potato Please ist ein gemütliches Kartoffelschäl- und Idle-Farming-Spiel rund um eine einfache Viertakt-Schleife: rohe Kartoffeln sammeln, zu Gerichten verarbeiten, wartende Kunden bedienen und die Einnahmen in Werkzeuge, Stationen und Kapazität reinvestieren. Es ist leicht zu erlernen, doch die Entscheidungsebene – wann sparen, wann ausgeben und welches Upgrade kaufen – entscheidet über schnellen Fortschritt oder stockende Farm.",
+        "Über die ersten Stunden hinaus öffnet Potato Please passives Einkommen, Automatisierung, Level-Ziele mit Sternebewertungen und einen tiefen Upgrade-Baum. Unser Wiki deckt jedes System mit praktischen Guides, Upgrade-Prioritätstabellen, Erfolgs-Routen und Release-Details ab, damit neue und wiederkehrende Spieler immer ihren nächsten Schritt kennen."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "Golden Horn Studios"
+        },
+        {
+          "label": "Plattform",
+          "value": "Steam (PC)"
+        },
+        {
+          "label": "Genre",
+          "value": "Gemütlicher Idle-Sim"
+        },
+        {
+          "label": "Kernschleife",
+          "value": "Sammeln / Zubereiten / Servieren / Verbessern"
+        },
+        {
+          "label": "Upgrade-Typen",
+          "value": "Output / Passiv / Multiplikator / Automatisierung"
+        },
+        {
+          "label": "Fortschritt",
+          "value": "Level & Sternebewertungen"
+        }
+      ],
+      "cta": "Alle Guides erkunden"
+    },
+    "explore": {
+      "title": "Potato Please Wiki erkunden",
+      "description": "Meistere Potato Please mit wichtigen Guides für Einsteiger, Gameplay-Systeme, Werkzeuge, Upgrades, Automatisierung, Erfolge, Systemanforderungen, Trailer und Release-Details.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Potato Please Einsteiger-Guide",
+          "description": "Behandelt die grundlegende Gameplay-Schleife, die ersten Schritte und das Kernziel, damit neue Spieler selbstsicher starten.",
+          "href": "/guide/potato-please-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Schließe das Tutorial ab, ohne es zu überspringen, damit du weißt, welche Taste Wert erzeugt und welche ihn nur kostet."
+            },
+            {
+              "label": "2",
+              "detail": "Identifiziere deine Währungen und trenne schnell erneuerbares Einkommen von seltenen, langsamen Ressourcen."
+            },
+            {
+              "label": "3",
+              "detail": "Führe sofort ein günstiges Upgrade durch, um zu bestätigen, dass du die Ausgabenschleife verstehst, bevor die Kosten steigen."
+            },
+            {
+              "label": "4",
+              "detail": "Beobachte die Timer einen ganzen Zyklus lang, um den Rhythmus zu lernen, den das Spiel von dir erwartet."
+            },
+            {
+              "label": "5",
+              "detail": "Spare seltene Ressourcen, bis du ihren wahren Wert kennst, statt sie früh auszugeben."
+            },
+            {
+              "label": "6",
+              "detail": "Halte alle vier Schleifenschritte gleichzeitig am Laufen, statt dich auf eine einzige Mechanik zu fixieren."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Potato Please Gameplay-Guide",
+          "description": "Erklärt die Kernmechaniken, Timing-Fenster, Upgrade-Prioritäten und die Fehler, die Durchläufe früh beenden.",
+          "href": "/mechanics/potato-please-gameplay",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Eingabe",
+              "detail": "Taps, Halten und getimte Presses, die die reine Ausführung ausmachen."
+            },
+            {
+              "label": "Entscheidungen",
+              "detail": "Auswählen, wann du ausgibst, wartest oder auf eine größere Belohnung hinarbeitest."
+            },
+            {
+              "label": "Wirtschaft",
+              "detail": "Kurzfristige Gewinne in permanente Upgrades umwandeln."
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Das günstigste sinnvolle Upgrade zu kaufen wirkt schneller, als zu sparen."
+            },
+            {
+              "label": "Druck",
+              "detail": "Den Schwierigkeitssprung überstehen, ohne dich für einen marginalen Gewinn zu übernehmen."
+            },
+            {
+              "label": "Auszahlen",
+              "detail": "Das Ergebnis sichern, statt an der Ziellinie gierig zu werden."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Potato Please Werkzeuge und Upgrades",
+          "description": "Stellt Werkzeuge, Ausrüstungsverbesserungen und Fortschrittsentscheidungen vor, mit denen Spieler die Kartoffelverarbeitung schneller abschließen.",
+          "href": "/progression/potato-please-upgrades",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Output-Upgrades, die den Wert jeder Aktion erhöhen und den Rest deines Builds finanzieren."
+            },
+            {
+              "label": "A",
+              "detail": "Passive Erzeugung, die weiter verdient, während du idle bist oder nicht spielst."
+            },
+            {
+              "label": "B",
+              "detail": "Geschwindigkeits- und Abklingzeit-Upgrades, sobald Timing dein Hauptengpass ist."
+            },
+            {
+              "label": "C",
+              "detail": "Kosmetik- und Prestige-Items, die hübsch aussehen, aber dein Fortschrittstempo nicht ändern."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Potato Please Automatisierungs-Guide",
+          "description": "Konzentriert sich auf Automatisierungsmechaniken und darauf, wie du wiederholtes Kartoffelschälen in effiziente, freihändige Systeme verwandelst.",
+          "href": "/mechanics/potato-please-mechanics",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Kartiere deine manuelle Routine und notiere, welche Aktionen sich jeden Zyklus wiederholen."
+            },
+            {
+              "label": "2",
+              "detail": "Kaufe zuerst passive Erzeugung, damit das Einkommen weiterläuft, während du weg bist."
+            },
+            {
+              "label": "3",
+              "detail": "Füge Automatisierungs-Upgrades hinzu, sobald sich eine manuelle Schleife wie Pflicht anfühlt."
+            },
+            {
+              "label": "4",
+              "detail": "Reinvestiere in Multiplikatoren, nachdem dein Basis-Output etabliert ist."
+            },
+            {
+              "label": "5",
+              "detail": "Nimm Effizienz-Upgrades, wann immer sie sich schnell amortisieren."
+            },
+            {
+              "label": "6",
+              "detail": "Balanciere jede Phase, damit kein einzelner Teil der Schleife zum Engpass wird."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Potato Please Erfolge-Guide",
+          "description": "Bietet Informationen zu Steam-Erfolgen, Komplettierungszielen und den Herausforderungen, die Spieler im Spiel verfolgen können.",
+          "href": "/guide/potato-please-achievements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Fortschritt",
+              "detail": "Erreiche Meilensteine auf dem Hauptpfad, meist in deinen ersten Durchläufen."
+            },
+            {
+              "label": "Sammlung",
+              "detail": "Sammle vollständige Sets aus Items, Rezepten oder Varianten im Midgame."
+            },
+            {
+              "label": "Können",
+              "detail": "Schließe schnell oder fehlerfrei ab, sobald die Kernmechaniken klick machen."
+            },
+            {
+              "label": "Erkunden",
+              "detail": "Finde versteckte Bereiche, Geheimnisse und seltene Spawns, nachdem der Hauptpfad erledigt ist."
+            },
+            {
+              "label": "Kumulativ",
+              "detail": "Wiederhole eine Aktion viele Male und lass sie im Hintergrund zählen."
+            },
+            {
+              "label": "Geheim",
+              "detail": "Unbekannte Auslöser, die am besten spät mit Community-Hilfe erledigt werden."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Potato Please Systemanforderungen",
+          "description": "Listet die minimalen und empfohlenen PC-Spezifikationen, unterstützten Funktionen und Plattforminformationen auf, die Spieler prüfen müssen.",
+          "href": "/release/potato-please-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "CPU",
+              "detail": "Vergleiche Generation und Kernanzahl, nicht nur den Markennamen auf der Verpackung."
+            },
+            {
+              "label": "GPU",
+              "detail": "Meist der entscheidende Faktor; prüfe VRAM und Grenzen der integrierten Grafik."
+            },
+            {
+              "label": "RAM",
+              "detail": "Erfülle die angegebene Menge und lass etwas Spielraum für dein OS und deine Apps."
+            },
+            {
+              "label": "Speicher",
+              "detail": "Bestätige den freien Speicherplatz und bevorzuge eine SSD für schnellere Ladezeiten."
+            },
+            {
+              "label": "OS",
+              "detail": "Prüfe vor der Installation, ob deine Betriebssystemversion unterstützt wird."
+            },
+            {
+              "label": "API",
+              "detail": "Prüfe die DirectX- oder Vulkan-Funktionsunterstützung für die Kompatibilität."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Potato Please Trailer und Updates",
+          "description": "Sammelt offizielle Trailer, Ankündigungen und Entwicklungs-Updates, damit Spieler neue Enthüllungen verfolgen können.",
+          "href": "/community/potato-please-trailer",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Offiziell",
+              "detail": "Vergleiche den Uploader mit dem Entwickler- oder Publisher-Kanal."
+            },
+            {
+              "label": "Fan-Edits",
+              "detail": "Achte auf Re-Uploads, Wasserzeichen und nicht zusammenpassenden Ton."
+            },
+            {
+              "label": "Store-Hub",
+              "detail": "Prüfe den Community-Hub des Stores für das, was einem offiziellen Wort am nächsten kommt."
+            },
+            {
+              "label": "Discord",
+              "detail": "Schnelle Reaktionen, geringe Beständigkeit und eine hohe Gerüchtrate."
+            },
+            {
+              "label": "Foren",
+              "detail": "Längere Analysen und archivierte Links von anderen Spielern."
+            },
+            {
+              "label": "Kurzform",
+              "detail": "15- bis 60-sekündige Ausschnitte ohne Kontext."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Potato Please Release-Informationen",
+          "description": "Zeigt Release-Status, Entwicklerinformationen, unterstützte Plattformen und wichtige Startdetails.",
+          "href": "/release/potato-please-release-date",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Start",
+              "detail": "Nicht öffentlich auf einen Kalendertag festgelegt; bestätige es im offiziellen Store-Eintrag."
+            },
+            {
+              "label": "Plattformen",
+              "detail": "Pro Store-Eintrag angekündigt; prüfe jede Store-Seite einzeln."
+            },
+            {
+              "label": "Preis",
+              "detail": "Wird normalerweise näher am Start im Store-Eintrag enthüllt."
+            },
+            {
+              "label": "Wunschliste",
+              "detail": "Der übliche Weg, eine Benachrichtigung zu erhalten, wenn das Datum feststeht."
+            },
+            {
+              "label": "Verzögerungsrisiko",
+              "detail": "Zertifizierung, Bugs oder ein überfülltes Zeitfenster können das Datum verschieben."
+            },
+            {
+              "label": "Vorbereitung",
+              "detail": "Wunschliste, Specs prüfen und Speicher vor dem Starttag bestätigen."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Potato Please FAQ",
+      "description": "Schnelle Antworten auf die häufigsten Fragen zu Potato Please.",
+      "items": [
+        {
+          "question": "Was ist Potato Please?",
+          "answer": "Potato Please ist ein gemütliches Kartoffelschäl- und Idle-Farming-Spiel rund um eine Viertakt-Schleife: Kartoffeln sammeln, Gerichte zubereiten, Kunden bedienen und Werkzeuge verbessern. Es verbindet entspanntes manuelles Spiel mit Fortschritt, Automatisierung und Level-Zielen."
+        },
+        {
+          "question": "Wie starte ich als Anfänger in Potato Please?",
+          "answer": "Schließe das Tutorial ab, ohne es zu überspringen, identifiziere deine Währungen und führe sofort ein günstiges Upgrade durch. Unser Potato-Please-Einsteiger-Guide führt durch die ersten Stunden, die Kernschleife und die Fehler, die neue Spieler ausbremsen."
+        },
+        {
+          "question": "Welche Potato-Please-Upgrades sollte ich zuerst kaufen?",
+          "answer": "Priorisiere Output-Upgrades, die das Einkommen pro Aktion erhöhen, und füge dann passive Erzeugung hinzu, damit du auch in Abwesenheit weiter verdienst. Geschwindigkeit, Kapazität, Multiplikatoren und Automatisierung kommen als Nächstes, sobald dein Basis-Output steht."
+        },
+        {
+          "question": "Wie funktionieren Potato-Please-Level und Sternebewertungen?",
+          "answer": "Jedes Potato-Please-Level kombiniert ein Hauptziel mit einem Zug- oder Zeitlimit, und die Sternschwellen belohnen Effizienz statt bloßer Komplettierung. Lies das Ziel und die Einschränkung, bevor du deinen ersten Zug machst."
+        },
+        {
+          "question": "Wo finde ich das Potato-Please-Release-Datum?",
+          "answer": "Der genaue Starttag ist noch nicht öffentlich festgelegt. Setze Potato Please auf der offiziellen Steam-Store-Seite auf die Wunschliste, um eine Benachrichtigung zu erhalten, und prüfe unsere Release-Informationsseite für Plattform- und Preis-Updates."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Potato Please zu meistern?",
+      "description": "Von deiner ersten geschälten Kartoffel bis zur voll automatisierten Farm deckt unser Community-Wiki jedes System mit kostenlosen, aktuellen Guides ab.",
+      "primary": "Lies den Einsteiger-Guide",
+      "secondary": "Auf Steam ansehen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Potato Please Einsteiger-Guide & Walkthroughs",
+    "overviewDescription": "Starte hier für Potato-Please-Einsteiger-Guides, Tutorials, Tipps, Erfolge und einen kompletten Walkthrough für neue Spieler."
+  },
+  "mechanics": {
+    "overviewTitle": "Potato Please Gameplay-Mechaniken",
+    "overviewDescription": "Lerne, wie Potato Please gespielt wird: Kernmechaniken, Steuerung, Sortieren, Level und Schritt-für-Schritt-Grundlagen."
+  },
+  "features": {
+    "overviewTitle": "Potato Please Spiel-Features",
+    "overviewDescription": "Entdecke Potato-Please-Charaktere, Items, Spielmodi, Herausforderungen, Geheimnisse und Enden an einem Ort."
+  },
+  "progression": {
+    "overviewTitle": "Potato Please Fortschritt & Upgrades",
+    "overviewDescription": "Plane deine Potato-Please-Upgrades, Freischaltungen, Belohnungen und Strategie mit praktischen Fortschrittstipps."
+  },
+  "community": {
+    "overviewTitle": "Potato Please Community & Medien",
+    "overviewDescription": "Potato-Please-Community-Links, Reddit- und Discord-Diskussionen, Spielerrezensionen und offizielle Trailer."
+  },
+  "release": {
+    "overviewTitle": "Potato Please Release & Plattformen",
+    "overviewDescription": "Potato-Please-Release-Datum, Steam-Seite, Demo, Preis, Plattformen und Systemanforderungen."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes ansehen",
+    "playOnRoblox": "Auf Steam spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Verwandte Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Start",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Potato Please Wiki",
+    "about": "Das Potato Please Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub zu Schältechniken, Werkzeugen, Upgrades, Automatisierung und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnelllinks",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Potato Please Wiki. Nicht mit Golden Horn Studios oder Steam verbunden.",
+    "description": "Ein gemütlicher Ego-Perspektive-Kartoffelschäl-Simulator. Schälen, verbessern und die Farm automatisieren.",
+    "playGame": "Auf Steam spielen",
+    "officialDiscord": "Steam-Community",
+    "officialYoutube": "Offizielles YouTube",
+    "vvBuilder": "Farming-Tipps",
+    "beginnerGuide": "Einsteiger-Guide",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "mechanicsGuides": "Gameplay-Guides",
+    "featuresGuides": "Feature-Guides",
+    "progressionGuides": "Fortschritts-Guides",
+    "communityGuides": "Community & Medien"
+  }
+}
